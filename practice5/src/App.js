@@ -3,6 +3,7 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import Home from "./components/Home";
 import AvengersList from "./components/AvengersList";
+import avengers from "../../practice5/data";
 
 class App extends Component {
   render() {
