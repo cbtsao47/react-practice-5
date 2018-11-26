@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Route } from "react-router-dom";
+import Home from "./components/Home";
+import AvengersList from "./components/AvengersList";
+
 class App extends Component {
   render() {
     return (
