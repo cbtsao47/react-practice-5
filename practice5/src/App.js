@@ -3,9 +3,15 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import Home from "./components/Home";
 import AvengersList from "./components/AvengersList";
-import avengers from "../../practice5/data";
+import avengers from "./data";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      avengers: avengers
+    };
+  }
   render() {
     return (
       <div className="App">
